@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background:url(https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg);
+    width:100vw;
+    height:110vh;
+    background-repeat: no-repeat;
+    filter: blur(30px);
+    position:absolute;
+    z-index: -1;
+}
+
+.loading-text {
+    font-size:50px;
+    color:#FFFFFF;
+}
+
+.home {
+    color: white;
+    height: 52px;
+    display: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+}
